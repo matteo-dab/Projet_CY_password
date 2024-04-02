@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
-  font-family: 'Sansita Swashed', cursive;
+  font-family: 'Cambria', cursive, sans-serif;
 }
 
 input {
-  background: #F2D750;
-  border: solid #636363 1px;
+  background: #e19a1d;
+  border: solid black 2px;
 }
 
 body {
@@ -20,34 +20,35 @@ body {
 }
  #password-generator {
   position: relative;
-  padding: 20px;
+  padding: 15px;
   margin: 0 auto;
-  width: 500px;
+  width: 600px;
   height: 450px; 
-  border-radius: 30px;
-  background: #F2D750;
+  border-radius: 50px;
+  background: #748a43;
 }
 .range{
-	 font-size: 20px;
+	 font-size: 30px;
+     font-family: 'Cambria', cursive, sans-serif;
 }
 #taille, #nombre {
 	
-  text-align: left;
-  font-size: 32px;
-  margin: 0 auto 1.2rem;
-  width: 14%;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+  width: 70px;
 }
  #password-generator #passwordoutput  {
-  text-align: left;
-  font-size: 40px;
-  margin: 0 auto 20px;
-  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  margin: 0 auto 25px;
+  width: 90%;
 }
 
 
  #password-generator   #password-generator  {
-  padding: 16px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  box-shadow: 0 0 10px ;
 }
 #password-generator  #display-password-length {
   text-align: center;
@@ -64,8 +65,8 @@ body {
   display: none;
 }
  #password-generator .flex input:checked + label {
-  background: white;
-  transform: scale(1.1);
+  background: #e19a1d;
+  transform: scale(1.2);
 }
  #password-generator .flex label {
   border: 2px solid white;
@@ -79,9 +80,9 @@ body {
   transition: 0.2s ease;
 }
  #password-generator button {
-  font-family: 'Sansita Swashed', cursive;
-  background-color: white;
-  border: solid #F2D750;
+  font-family: 'Cambria', cursive, sans-serif;
+  background-color: #748a43;
+  border: solid white ;
   color: black;
   padding: 16px 32px;
   text-align: center;
@@ -94,9 +95,8 @@ body {
   border-radius: 30px;
 }
  #password-generator button:hover {
-  background-color: #F2D750;
+  background-color:  #e19a1d;
   color: white;
   font-size: 26px;
   border-radius: 30px;
 }
-
