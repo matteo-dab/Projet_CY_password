@@ -3,6 +3,6 @@ Instructions pour compiler :
 - Vérifier que chaque fichier est au bon endroit
 
 Instructions pour utiliser : 
-- Avoir un compilateur pouvant executer du css du js et du code html
+- Avoir un compilateur pouvant executer du CSS du JS et du code HTML
 - Lire le readme en entier
 
