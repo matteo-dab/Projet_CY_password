@@ -23,11 +23,11 @@ if(isset($_POST['email']) && isset($_POST['password'])) {
     }
     
     // Si l'utilisateur n'est pas trouvé, redirige vers la page de connexion
-    header("Location: index.php");
+    header("Location: inscription.html");
     exit;
 } else {
     // Si les données POST ne sont pas fournies, redirige vers la page de connexion
-    header("Location: index.php");
+    header("Location: inscription.html");
     exit;
 }
 ?>
