@@ -1,6 +1,6 @@
 // Récupération de l'élément d'entrée pour le mot de passe
 var motdepasse = document.getElementById('motdepasse');
-
+ 
 // Tableaux de caractères possibles pour chaque catégorie
 var tableauminuscule = ["a", "z", "e", "r", "t", "y", "u", "i", "o", "p", "q", "s", "d", "f", "g", "h", "j", "k", "l", "m", "w", "x", "c", "v", "b", "n"];
 var tableaumajuscule = ["A", "Z", "E", "R", "T", "Y", "U", "I", "O", "P", "Q", "S", "D", "F", "G", "H", "J", "K", "L", "M", "W", "X", "C", "V", "B", "N"];
