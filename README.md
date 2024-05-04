@@ -10,4 +10,3 @@ Instructions pour utiliser :
 - Lire le readme en entier
 
 Lien vers le PDF :
-file:///C:/Users/isabe/Documents/MATTEO/Dossier%20projet%20info.pdf
