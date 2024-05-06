@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire de Bienvenue</title>
+    <!-- Lien vers la feuille de style -->
+    <link rel="stylesheet" href="stylelogin.css"> 
+</head>
+<body>
+    <div class="container">
+        <h2>Bienvenue !</h2>
+        <!-- Formulaire qui envoie les données à welcome.php avec la méthode POST -->
+        <form action="welcome.php" method="POST"> 
+            <div class="form-group">
+                <!-- Champ pour le nom -->
+                <label for="nom">Nom :</label> 
+                <!-- Champ de saisie pour le nom avec l'attribut required pour le rendre obligatoire -->
+                <input type="text" id="nom" name="nom" required> 
+            </div>
+            <div class="form-group">
+                <!-- Champ pour l'email -->
+                <label for="pseudo">Email :</label>
+                <!-- Champ de saisie pour l'email avec l'attribut required pour le rendre obligatoire -->
+                <input type="text" id="email" name="email" required> 
+            </div>
+            <!-- Bouton de soumission du formulaire -->
+            <button type="submit">Envoyer</button> 
+        </form>
+    </div>
+</body>
+</html>
