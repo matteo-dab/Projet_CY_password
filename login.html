@@ -9,8 +9,8 @@
 <body>
     <div class="container">
         <h2>Bienvenue !</h2>
-        <!-- Formulaire qui envoie les données à welcome.php avec la méthode POST -->
-        <form action="welcome.php" method="POST"> 
+        <!-- Formulaire qui envoie les données à welcome.php avec la méthode GET -->
+        <form action="welcome.php" method="GET"> 
             <div class="form-group">
                 <!-- Champ pour le nom -->
                 <label for="nom">Nom :</label> 
@@ -25,6 +25,21 @@
             </div>
             <!-- Bouton de soumission du formulaire -->
             <button type="submit">Envoyer</button> 
+            <?php
+// Vérification si les données de formulaire sont envoyées
+if(isset($_GET['nom']) && isset($_GET['email'])) {
+    $nom = $_GET['nom']; 
+    $email = $_GET['email']; 
+
+    // Redirection vers un autre site avec un message de bienvenue incluant le nom
+    header("Location: https://projet-cy-password-4xkxyv28b-matteo-dabs-projects.vercel.app/?nom=$nom");
+    exit(); 
+} else {
+    // Redirection vers la page précédente si les données de formulaire ne sont pas envoyées
+    header("Location: login.html");
+    exit(); 
+}
+?>
         </form>
     </div>
 </body>
