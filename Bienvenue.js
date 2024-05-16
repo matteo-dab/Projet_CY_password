@@ -9,7 +9,7 @@ function getNom() {
         // Vérifier si le champ nom est présent dans les données
         if (Data.nom) {
             // Affichage du message de bienvenue dans la balise <div> avec la classe "Bienvenu"
-            document.querySelector('.Bienvenu').innerHTML = "Bienvenu " + Data.nom;
+            document.querySelector('.Bienvenue').innerHTML = "Bienvenue " + Data.nom;
         }
     })
     // Gérer les erreurs de la requête
