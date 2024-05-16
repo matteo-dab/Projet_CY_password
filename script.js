@@ -62,6 +62,7 @@ function best() {
   generateur();
 }
 
+// Fonction pour envoyer le mot de passe par email
 function sendMail() {
   fetch('mail.php')
   .then(response => response.json()) // Convertir la réponse en JSON
@@ -77,5 +78,6 @@ function sendMail() {
   })
   .catch(error => console.error('Erreur lors de la récupération de l\'e-mail de session :', error));
 }
+
 
 
