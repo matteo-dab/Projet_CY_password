@@ -1,7 +1,4 @@
 Accéder à l'application web via l'url :
-https://projet-cy-password-4xkxyv28b-matteo-dabs-projects.vercel.app/
-
-nouveau lien : 
 https://runtiest-yarn.000webhostapp.com/login.html
 
 Instructions pour compiler : 
@@ -9,7 +6,7 @@ Instructions pour compiler :
 - Vérifier que chaque fichier est au bon endroit
 
 Instructions pour utiliser : 
-- Avoir un compilateur pouvant executer du CSS du JS du PHP et du code HTML
+- Avoir un navigateur internet pouvant utiliser du CSS du JS du PHP et du code HTML
 - Lire le readme en entier
 
 Lien vers le PDF :
