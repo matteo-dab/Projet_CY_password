@@ -3,7 +3,7 @@
   box-sizing: border-box;
   font-family: 'Cambria', cursive, sans-serif;
 }
- 
+
 /* Style des champs de saisie */
 input {
   background: #e19a1d;
@@ -124,11 +124,11 @@ body {
   border-radius: 30px;
 }
 
-
+/* Style de la classe "Bienvenue" */
 .Bienvenue {
   font-weight: bold;
-  margin-top: 50px; /* Espacement depuis le haut de la page */
   font-size: 24px;
   text-align: center;
-  margin-top: 20px; /* Espacement supplémentaire depuis le haut de la page */
+  margin-top: 50px; 
 }
+
