@@ -25,8 +25,8 @@ function generateur() {
     alert('Tu dois sélectionner au moins un critère et la longueur doit être d\'au moins 6 caractères');
   } else if (tableauxregroupé.length >= 1 && passwordLength < 6) {
     alert('La longueur minimale du mot de passe doit être d\'au moins 6 caractères');
-  } else if (tableauxregroupé.length < 1 && passwordLength < 12) {
-    alert('Tu dois sélectionner au moins un critère et la longueur doit être d\'au moins 12 caractères');
+  } else if (tableauxregroupé.length < 1 && passwordLength < 6) {
+    alert('Tu dois sélectionner au moins un critère et la longueur doit être d\'au moins 6 caractères');
   } else if (tableauxregroupé.length < 1 && passwordLength >= 6) {
     alert('Tu dois sélectionner au moins un critère');
   } else {
