@@ -2,9 +2,9 @@
 // Démarrage de la session
 session_start();
 
-// Vérification si le nom est stocké en session
+// Vérification si le mail est stocké en session
 if (isset($_SESSION["email"])) {
-    // Récupération du nom depuis la session
+    // Récupération du mail depuis la session
     $email = $_SESSION["email"];
 
     // Création d'un tableau associatif contenant le mail
