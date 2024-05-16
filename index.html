@@ -8,18 +8,10 @@
   <link rel="stylesheet" href="style.css">
 </head> 
 <body>
-<!-- Message de bienvenue en php --> 
-  <!--
-<?php
-      // Vérifier si la variable nom est définie
-      if(isset($_GET['nom'])) {
-           $nom = $_GET['nom'];
-           echo "<h2>Bienvenue, $nom !</h2>";
-       } else {
-          echo "<h2>Bienvenue !</h2>";
-       }
-      ?>
--->
+<h2 class="Bienvenu">
+
+
+</h2>
 <!-- Conteneur principal du générateur -->
 <div id="generateur">
 
@@ -63,11 +55,14 @@
 
   <!-- Bouton pour copier le mot de passe généré -->
   <button id="generateButton2" type="button" onclick="copie()">Copier</button>
+  
+  <!-- Bouton pour envoyer le mot de passe par mail -->
+  <button id="sendButton" type="button" onclick="sendMail()">S'envoyer</button>
 </div>
 
 <!-- Inclusion du script JavaScript -->
 <script  src="script.js"></script>
+<script  src="Bienvenu.js"></script>
 
 </body>
 </html>
-

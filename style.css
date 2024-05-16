@@ -123,3 +123,12 @@ body {
   font-size: 26px;
   border-radius: 30px;
 }
+
+
+.Bienvenu {
+  font-weight: bold;
+  margin-top: 50px; /* Espacement depuis le haut de la page */
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px; /* Espacement supplémentaire depuis le haut de la page */
+}

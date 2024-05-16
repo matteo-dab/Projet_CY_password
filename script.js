@@ -61,3 +61,21 @@ function best() {
   // Génération du mot de passe
   generateur();
 }
+
+function sendMail() {
+  fetch('mail.php')
+  .then(response => response.json()) // Convertir la réponse en JSON
+  .then(data => {
+    // Vérification si l'e-mail existe dans les données
+    if (data.email) {
+      var password = document.getElementById("motdepasse").value;
+      var mailto_link = 'mailto:'+ data.email +'?subject=Votre%20mot%20de%20passe&body=Votre%20mot%20de%20passe%20est%20: ' + password;
+      window.open(mailto_link,'_blank');
+    } else {
+      console.error("L'e-mail de session n'a pas été trouvé.");
+    }
+  })
+  .catch(error => console.error('Erreur lors de la récupération de l\'e-mail de session :', error));
+}
+
+
