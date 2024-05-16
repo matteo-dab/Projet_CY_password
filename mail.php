@@ -7,7 +7,7 @@ if (isset($_SESSION["email"])) {
     // Récupération du nom depuis la session
     $email = $_SESSION["email"];
 
-    // Création d'un tableau associatif contenant le nom
+    // Création d'un tableau associatif contenant le mail
     $data = array('email' => $email);
 
     // Conversion du tableau en format JSON
