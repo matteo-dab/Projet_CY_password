@@ -2,7 +2,7 @@
 // Démarrage de la session
 session_start();
 
-// Vérification si le nom est stocké en session
+// Vérification si le nom est stocké dans la session
 if (isset($_SESSION["nom"])) {
     // Récupération du nom depuis la session
     $nom = $_SESSION["nom"];
