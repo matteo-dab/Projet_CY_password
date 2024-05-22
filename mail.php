@@ -2,7 +2,7 @@
 // Démarrage de la session
 session_start();
 
-// Vérification si le mail est stocké en session
+// Vérification si le mail est stocké dans la session
 if (isset($_SESSION["email"])) {
     // Récupération du mail depuis la session
     $email = $_SESSION["email"];
