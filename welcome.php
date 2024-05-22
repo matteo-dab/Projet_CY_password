@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nom = $_POST["nom"];
     $email = $_POST["email"];
 
-    // Stockage des données dans des variables de session
+    // Stockage des données dans des variables de session 
     $_SESSION["nom"] = $nom;
     $_SESSION["email"] = $email;
 
