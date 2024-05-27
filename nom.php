@@ -10,7 +10,7 @@ if (isset($_SESSION["nom"])) {
     // Création d'un tableau associatif contenant le nom
     $data = array('nom' => $nom);
 
-    // Conversion du tableau en format JSON
+    // Conversion du tableau au format JSON
     $json = json_encode($data);
 
     // Envoi du contenu JSON avec l'en-tête approprié
