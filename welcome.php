@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION["nom"] = $nom;
     $_SESSION["email"] = $email;
 
-    // Redirection vers la page index.html
+    // Redirection vers la page index.html principale
     header("Location: index.html");
     exit();
 }
