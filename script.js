@@ -1,4 +1,4 @@
-// Récupération de l'élément d'entrée pour le mot de passe
+// Récupération de l'élément d'entrée pour créer mot de passe
 var motdepasse = document.getElementById('motdepasse');
  
 // Tableaux de caractères possibles pour chaque catégorie
@@ -86,7 +86,7 @@ function copie() {
   }
 }
 
-// Fonction pour générer le meilleur mot de passe possible
+// Fonction pour créer le meilleur mot de passe possible
 function best() {
   // Réinitialisation des paramètres pour le meilleur mot de passe
   document.getElementById('taille').value = 16;
@@ -116,7 +116,7 @@ function sendMail() {
 }
 }
 
-// Fonction pour copier le mot de passe dans presse-papiers
+// Fonction pour copier le mot de passe dans le presse-papiers
 function copie() {
   if (document.getElementById('motdepasse').value == 0) {
     alert('La case est vide, il n\'y a rien à copier');
