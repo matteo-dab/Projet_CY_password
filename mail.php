@@ -2,15 +2,15 @@
 // Démarrage de la session
 session_start();
 
-// Vérification si le mail est stocké dans la session
+// Vérification si l'email est stocké dans la session
 if (isset($_SESSION["email"])) {
     // Récupération du mail depuis la session
     $email = $_SESSION["email"];
 
-    // Création d'un tableau associatif contenant le mail
+    // Création d'un tableau associatif contenant l'émail
     $data = array('email' => $email);
 
-    // Conversion du tableau en format JSON
+    // Conversion du tableau au format JSON
     $json = json_encode($data);
 
     // Envoi du contenu JSON avec l'en-tête approprié
